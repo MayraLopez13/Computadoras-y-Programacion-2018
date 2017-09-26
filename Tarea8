@@ -1,0 +1,77 @@
+//1
+#include <stdio.h>
+    int main ()  {
+    	int j=0;
+    	
+    	for (j=1; j<=10; j=j+1) {
+    		
+    		printf("Hola :) %d",j);
+    		
+		}
+	}
+    
+ //2
+ #include <stdio.h>
+  int main () {
+  	
+  	  int j=0;
+  	  
+  	   for (j=1; j<=10; j=j+1) {
+  	   	
+  	   	printf("3 x %d = %d \n",j,j*3);
+  	   	
+		 }
+		 
+		 printf("fin del programa \n");
+		 
+		   }
+//3
+#include <stdio.h>
+  int main () {
+  	
+  	  int j=0;
+  	  
+  	   for (j=1; j<=10; j=j+1) {
+  	   	
+  	   	printf("3 x %d = %d \n",j,j*3);
+  	   	
+		 }
+		 
+		 printf("fin del programa \n");
+		 
+		   }
+//4
+#include <stdio.h>
+   int main ()  {
+   	
+   	int meno=2;
+   	int mayo=15;
+    int j   =0;
+    
+      for (meno=2; meno<=mayo; meno=meno+1) {
+       for(j=1; j<=10; j=j+1) {
+	   
+      	 printf("%d x %d = %d \n",meno,j,meno*j);
+	  }  
+	   
+	   printf("+++++++++++++++++++\n\n");
+	   
+}
+      printf ("fin del programa");
+   }
+//5
+#include <stdio.h>
+ 
+     int main ()  {
+     	
+      int j=0;
+      int k=0;
+      
+        for (j=1; j<=6; j=j+1) {  
+         for (k=1; k<=6; k=k+1){ 
+          printf("+");
+ 		 }
+           printf("\n");
+		} 
+		    printf("Fin del programa");
+	 }
