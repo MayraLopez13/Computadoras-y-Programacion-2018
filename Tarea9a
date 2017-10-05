@@ -1,0 +1,48 @@
+#include <stdio.h>
+ main () {
+  int dia=0;
+  int j=0;
+  
+   printf ("dame un numero del 1 al 7\n"); 
+   scanf ("%d",&dia);
+   
+   switch (dia) {
+    case 1:
+     printf("Lunes");
+	 
+    break;   
+	
+	case 2:
+	 printf(" Es el dia Martes");
+	 
+	 break;
+	
+	case 3:
+	 printf("Es el dia Miercoles");
+	 
+	 break;
+	 
+	case 4:
+	 printf("Es el dia Jueves");
+	 
+	 break;
+	 
+	case 5:
+	 printf("Es el dia Viernes");
+	 
+	 break;
+	 
+	case 6:
+	 printf("Es el dia Sabado");
+	 
+	 break;
+	 	
+	case 7:
+	 printf("Es el dia Domingo");
+	 
+	 break;
+	 
+	 }
+   
+   
+  }
