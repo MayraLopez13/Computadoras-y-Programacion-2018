@@ -1,3 +1,4 @@
+Programa 1
 #include <stdio.h>
  main () {
   int dia=0;
@@ -46,3 +47,36 @@
    
    
   }
+  
+  PROGRAMA 2 
+   #include <stdio.h>
+ int main () {
+
+  int num=0;
+  
+  printf("Dame un número entero\n");
+  scanf("%d",&num);
+  
+  if ( num % 2 == 0 )
+        printf( "\n   Es par" );
+    else
+        printf( "\n   Es impar" );
+
+ }
+ 
+ PROGRAMA 3
+ #include <stdio.h>  
+ int main () {
+
+  int num=0;
+  int j=0;
+  
+  printf("Dame un número entero para mostrarte la cantidad en asteriscos\n");
+  scanf("%d",&num);
+  
+  for (j=1; j<=num; j=j+1 ) {
+    printf("*");
+	
+  } 
+  
+}
