@@ -1,0 +1,79 @@
+PROGRAMA 1#
+
+
+#include<stdio.h>
+int main(){
+	
+int  precio=0; 
+int  iva=0; 
+int  total=0;
+      
+    
+      printf("\nEscriba el precio del producto: ");
+      scanf("%d", &precio);
+      printf("\n");
+      iva=precio*0.14;
+      printf("El valor del IVA del producto es de: %d", iva);
+      printf("\n\n");
+      total=precio+iva;
+      printf("El valor del producto con el IVA incluido es de: %d", total);
+      printf("\n\n");
+      
+     
+}
+
+
+PROGRAMA 2#
+
+#include <stdio.h>
+
+ int main () {
+ 
+	int juno=0;
+	int jdos=0;
+
+	
+	printf("Este es el juego de piedra papel y tijeras\n");
+	
+	printf("Del 1 al 3 estan clasifiacadas las eleeciones\n");
+	printf("de esta manera :\nPiedra es '1' \nPapel es '2'\nTijeras es '3'\n");
+	
+	printf("Jugador uno elige tu opción\n");
+		scanf("%d",&juno);
+	
+	printf("Jugador dos elgige tu opción\n");
+		scanf("%d",&jdos); 
+	
+		if (juno==jdos){
+                    printf("\n\tEmpate\n");
+                    }else
+                    
+                    if (juno==1 && jdos==jdos) 
+                    {
+                       printf("\nGano el jugador  dos \n");
+                                }
+                   
+					 if (juno==3 && jdos==1)
+                    {
+                        printf("\nGano el jugador  dos \n");
+                                }
+					 if (juno==2 && jdos==3)
+                    {
+                         printf("\nGano el jugador dos \n");
+                                }
+                    
+					 if (jdos==3 && juno==1)
+                    {
+                         printf("\nGano el jugador uno \n");
+                                } 
+					if (jdos==1 && juno==2)
+                    {
+                         printf("\nGano el jugador  dos \n");
+                                }
+                    if (jdos==2 && juno==3)
+                    {
+                         printf("\nGano el jugador  uno \n");
+                                }
+	
+
+}
