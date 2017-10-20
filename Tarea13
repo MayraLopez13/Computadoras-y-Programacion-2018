@@ -1,0 +1,43 @@
+#include <stdio.h>
+ int main () {
+  
+
+  int opci=0;
+  int num=0;
+  int nom=0;
+  
+  
+  do {
+       
+  	   printf("Escoge la opción que deseas realizar\n");
+  	   printf("Digite 1 si desea sumar:\n  "); 
+  	   printf("Digite 2 si desea restar:\n  ");
+  	   printf("Digite dos veces 3 si desea salir:\n\n  ");
+  	   scanf("%d",&opci);
+  	   
+  	   if (opci== 1) {
+  	   	   printf("Dame los dos numeros para sumarlos: ");
+  	   	   scanf("%d",&num); scanf("%d",&nom); 
+  	  	   printf("este es el resultado :%d \n \n",num+nom);	
+  	  	   
+		 }
+  	   if (opci== 2){
+  	   	  printf("Dame los dos numeros para restarlos: ");
+  	   	  scanf("%d",&num); scanf("%d",&nom); 
+  	  	  printf("este es el resultado %d: \n ",num-nom);	
+  	  		
+  	  	  
+		 }		 
+		   
+
+     	 printf("Si quiere hacer otra operación teclee 4: \n"); 
+         scanf("%d",&opci); 
+         
+         
+  }
+  
+   while (opci == 4); 
+    
+   
+  
+}
